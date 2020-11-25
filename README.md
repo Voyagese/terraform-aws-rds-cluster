@@ -1,6 +1,5 @@
-# terraform-iaac-august-2020
 module "db" {
-  source  = "Voyagese/rds-cluster/aws"
+source = "./class7"
 region = "us-east-2"
 subnet_ids = [
 "subnet-0764b3812f98463f4", 
