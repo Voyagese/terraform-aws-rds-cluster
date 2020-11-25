@@ -1,3 +1,4 @@
+```
 module "db" {
 source = "Voyagese/rds-cluster/aws"
 region = "us-east-2"
