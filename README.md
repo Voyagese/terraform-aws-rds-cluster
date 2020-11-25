@@ -19,9 +19,8 @@ username = "foo"
 password = "foobarbaz"
 publicly_accessible = true
 }
-
-
-
+```
+```
 output "region" {
 value = "${module.db.region}"
 }
@@ -34,3 +33,4 @@ value = "${module.db.allowed_hosts}"
 output "DB_NAME" {
 value = "${module.db.DB_NAME}"
 }
+```
